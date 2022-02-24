@@ -1,33 +1,52 @@
 package com.sungsuhan.api.member.service;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class MemberServiceImpl implements MemberService {
-    @Override
-    public void memberList() {
 
+    @Override
+    public String memberList() {
+        return null;
     }
 
     @Override
-    public void viewMemberInformation() {
-
+    public String viewMemberInformation() {
+        return null;
     }
 
     @Override
-    public void viewShoppingList() {
-
+    public String viewShoppingList() {
+        return null;
     }
 
     @Override
-    public void registerToSendMail() {
-
+    public String registerToSendMail() {
+        return null;
     }
 
     @Override
-    public void listOfPoints() {
-
+    public String listOfPoints() {
+        return null;
     }
 
     @Override
-    public void viewDepositDetails() {
+    public String viewDepositDetails() {
+        return null;
+    }
 
+    @Override
+    public String calc() {
+        return null;
+    }
+
+    @Override
+    public String bmi() {
+        return null;
+    }
+
+    @Override
+    public String grade() {
+        return null;
     }
 }

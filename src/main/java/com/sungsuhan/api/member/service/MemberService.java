@@ -1,10 +1,13 @@
 package com.sungsuhan.api.member.service;
 
 public interface MemberService {
-    void memberList();
-    void viewMemberInformation();
-    void viewShoppingList();
-    void registerToSendMail();
-    void listOfPoints();
-    void viewDepositDetails();
+    String memberList();
+    String viewMemberInformation();
+    String viewShoppingList();
+    String registerToSendMail();
+    String listOfPoints();
+    String viewDepositDetails();
+    String calc();
+    String bmi();
+    String grade();
 }
