@@ -9,12 +9,20 @@ import java.lang.reflect.Member;
 
 @RestController
 @RequiredArgsConstructor
+@RequestMapping("/member")
 public class MemberController {
 
     private final MemberService service;
 
-    @GetMapping("/member/bmi/{name}/{height}/{weight}")
-    public String getBmi(@PathVariable String name,
+    @PostMapping("/bmi")
+    public String getBmi(@RequestBody MemberDTO member) {
+        System.out.println("리액트에서 넘어온 이름 : " + member.getName());
+        System.out.println("리액트에서 넘어온 키 : " + member.getHeight());
+        System.out.println("리액트에서 넘어온 몸무게 : " + member.getWeight());
+        return "BMI 정상";
+    }
+    @GetMapping("/calc")
+    public String calc(@PathVariable String name,
                          @PathVariable double height,
                          @PathVariable double weight) {
         System.out.println("리액트에서 넘어온 이름 : " + name);
@@ -22,5 +30,22 @@ public class MemberController {
         System.out.println("리액트에서 넘어온 몸무게 : " + weight);
         return "BMI 정상";
     }
-
+    @GetMapping("/grade")
+    public String getGrade(@PathVariable String name,
+                         @PathVariable double height,
+                         @PathVariable double weight) {
+        System.out.println("리액트에서 넘어온 이름 : " + name);
+        System.out.println("리액트에서 넘어온 키 : " + height);
+        System.out.println("리액트에서 넘어온 몸무게 : " + weight);
+        return "BMI 정상";
+    }
+    @GetMapping("/login")
+    public String login(@PathVariable String name,
+                         @PathVariable double height,
+                         @PathVariable double weight) {
+        System.out.println("리액트에서 넘어온 이름 : " + name);
+        System.out.println("리액트에서 넘어온 키 : " + height);
+        System.out.println("리액트에서 넘어온 몸무게 : " + weight);
+        return "BMI 정상";
+    }
 }
