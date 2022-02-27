@@ -1,16 +1,14 @@
 package com.sungsuhan.api.member.repository;
 
-import com.sungsuhan.api.member.domain.CalcDTO;
 import com.sungsuhan.api.member.domain.MemberDTO;
 import org.springframework.stereotype.Repository;
 
 @Repository
 public class MemberRepositoryImpl implements MemberRepository{
     @Override
-    public String calc(CalcDTO calc) {
+    public String calc(MemberDTO calc) {
         return null;
     }
-
     @Override
     public String bmi(MemberDTO bmi) {
         return null;

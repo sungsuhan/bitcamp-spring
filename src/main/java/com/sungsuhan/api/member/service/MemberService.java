@@ -1,11 +1,10 @@
 package com.sungsuhan.api.member.service;
 
-import com.sungsuhan.api.member.domain.CalcDTO;
 import com.sungsuhan.api.member.domain.MemberDTO;
 
 public interface MemberService {
 
-    String calc(CalcDTO calc);
+    String calc(MemberDTO calc);
 
     String bmi(MemberDTO bmi);
 

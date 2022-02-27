@@ -1,6 +1,5 @@
 package com.sungsuhan.api.member.service;
 
-import com.sungsuhan.api.member.domain.CalcDTO;
 import com.sungsuhan.api.member.domain.MemberDTO;
 import com.sungsuhan.api.member.repository.MemberRepository;
 import lombok.RequiredArgsConstructor;
@@ -15,7 +14,7 @@ public class MemberServiceImpl implements MemberService {
 
 
     @Override
-    public String calc(CalcDTO calc) {
+    public String calc(MemberDTO calc) {
         int a = calc.getNum1();
         int b = calc.getNum2();
         int res = 0;
