@@ -14,7 +14,6 @@ public class MemberDTO {
     private String address;
     private double height;
     private double weight;
-    private String regdate;
     private int kor;
     private int eng;
     private int math;
