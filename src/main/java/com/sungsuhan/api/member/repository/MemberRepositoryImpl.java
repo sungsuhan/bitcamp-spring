@@ -24,5 +24,10 @@ public class MemberRepositoryImpl implements MemberRepository{
         return null;
     }
 
+    @Override
+    public String info(MemberDTO info) {
+        return null;
+    }
+
 
 }

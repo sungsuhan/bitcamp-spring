@@ -28,6 +28,10 @@ public class MemberController {
     public String login(@RequestBody MemberDTO login) {
         return service.login(login);
     }
+    @PostMapping("/info")
+    public String info(@RequestBody MemberDTO info) {
+        return service.info(info);
+    }
 
 
 

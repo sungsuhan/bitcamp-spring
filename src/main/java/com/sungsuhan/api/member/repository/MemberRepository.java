@@ -10,4 +10,6 @@ public interface MemberRepository {
     String grade(MemberDTO grade);
 
     String login(MemberDTO login);
+
+    String info(MemberDTO info);
 }

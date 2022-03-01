@@ -11,4 +11,6 @@ public interface MemberService {
     String grade(MemberDTO grade);
 
     String login(MemberDTO login);
+
+    String info(MemberDTO info);
 }

@@ -53,5 +53,16 @@ public class MemberServiceImpl implements MemberService {
         return String.format("ID:%s, PW:%s  로그인 성공",userId, password);
     }
 
+    @Override
+    public String info(MemberDTO info) {
+        String name = info.getName();
+        String gender = info.getGender();
+        int age = info.getAge();
+        String phone = info.getPhone();
+        String address = info.getAddress();
+        String vaccine = info.getVaccine();
+        return String.format("이름:%s 성별:%s 나이:%d세 전화번호:%s 주소:%s 백신접종:%s",name,gender,age,phone,address,vaccine);
+    }
+
 
 }
