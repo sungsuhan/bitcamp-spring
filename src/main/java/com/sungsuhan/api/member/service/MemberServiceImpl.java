@@ -12,7 +12,6 @@ public class MemberServiceImpl implements MemberService {
     private final MemberRepository repository;
 
 
-
     @Override
     public String calc(MemberDTO calc) {
         int a = calc.getNum1();

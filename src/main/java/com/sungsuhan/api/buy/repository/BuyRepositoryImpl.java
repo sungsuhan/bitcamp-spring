@@ -1,4 +1,4 @@
 package com.sungsuhan.api.buy.repository;
 
-public class BuyRepositoryImpl {
+public class BuyRepositoryImpl implements BuyRepository {
 }

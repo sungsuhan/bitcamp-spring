@@ -1,4 +1,4 @@
 package com.sungsuhan.api.buy.service;
 
-public class BuyServiceImpl {
+public class BuyServiceImpl implements BuyService {
 }
