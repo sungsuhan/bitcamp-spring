@@ -27,7 +27,6 @@ public class MemberDTO {
     public String getAddress() {
         return address;
     }
-
     public void setAddress(String address) {
         this.address = address;
     }
@@ -35,7 +34,6 @@ public class MemberDTO {
     public String getPhone() {
         return phone;
     }
-
     public void setPhone(String phone) {
         this.phone = phone;
     }
@@ -43,7 +41,6 @@ public class MemberDTO {
     public int getAge() {
         return age;
     }
-
     public void setAge(int age) {
         this.age = age;
     }
@@ -51,7 +48,6 @@ public class MemberDTO {
     public String getGender() {
         return gender;
     }
-
     public void setGender(String gender) {
         this.gender = gender;
     }
@@ -59,7 +55,6 @@ public class MemberDTO {
     public String getVaccine() {
         return vaccine;
     }
-
     public void setVaccine(String vaccine) {
         this.vaccine = vaccine;
     }
@@ -67,7 +62,6 @@ public class MemberDTO {
     public int getNum1() {
         return num1;
     }
-
     public void setNum1(int num1) {
         this.num1 = num1;
     }
@@ -75,7 +69,6 @@ public class MemberDTO {
     public String getOpcode() {
         return opcode;
     }
-
     public void setOpcode(String opcode) {
         this.opcode = opcode;
     }
@@ -83,7 +76,6 @@ public class MemberDTO {
     public int getNum2() {
         return num2;
     }
-
     public void setNum2(int num2) {
         this.num2 = num2;
     }
@@ -91,7 +83,6 @@ public class MemberDTO {
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
@@ -99,7 +90,6 @@ public class MemberDTO {
     public double getHeight() {
         return height;
     }
-
     public void setHeight(double height) {
         this.height = height;
     }
@@ -107,7 +97,6 @@ public class MemberDTO {
     public double getWeight() {
         return weight;
     }
-
     public void setWeight(double weight) {
         this.weight = weight;
     }
@@ -115,7 +104,6 @@ public class MemberDTO {
     public int getKor() {
         return kor;
     }
-
     public void setKor(int kor) {
         this.kor = kor;
     }
@@ -123,7 +111,6 @@ public class MemberDTO {
     public int getEng() {
         return eng;
     }
-
     public void setEng(int eng) {
         this.eng = eng;
     }
@@ -131,7 +118,6 @@ public class MemberDTO {
     public int getMath() {
         return math;
     }
-
     public void setMath(int math) {
         this.math = math;
     }
@@ -139,7 +125,6 @@ public class MemberDTO {
     public String getUserId() {
         return userId;
     }
-
     public void setUserId(String userId) {
         this.userId = userId;
     }
@@ -147,7 +132,6 @@ public class MemberDTO {
     public String getPassword() {
         return password;
     }
-
     public void setPassword(String password) {
         this.password = password;
     }
